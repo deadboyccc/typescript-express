@@ -3,7 +3,7 @@
 ## Overview
 This project is a TypeScript-based application that utilizes environment variables for configuration. It provides various API routes and endpoints to perform specific tasks. The project structure includes TypeScript files located in the `src` directory and a configuration file named `config.env`.
 
-## use the generate bat file to generate fake data to local database to test the API
+## The 'generate.bat' batch file streamlines the process of generating and inserting test data into your local database, simplifying API testing efforts.
 
 ## Environment Variables
 The project expects the following environment variables to be defined in the `src/config.env` file:
@@ -12,7 +12,7 @@ The project expects the following environment variables to be defined in the `sr
 - `PORT`: The port number on which the server will run.
 - `DB_LOCAL`: The hostname of the database server. (local)
 - `JWT_SECRET`: The secret key used for JSON Web Token (JWT) authentication.
-- `JWT_EXPIRES_IN`: JWT epides in 'xd' format (90d=90days)
+- `JWT_EXPIRES_IN`: JWT expires in 'xd' format (90d=90days)
 - `FROM_EMAIL`: server sender email
 
 - `PRODUCTION_SMPT_HOST`: host name of the production smpt
@@ -115,11 +115,13 @@ The project expects the following environment variables to be defined in the `sr
 - **Nodemon Configuration**: `nodemon.json`
 - **Jest Configuration**: `jest.config.js`
 
+---
+## To-Do List 🚢
 
+* ⏳ **Create Docker Image** 🐳 
+* ⏳ **Add Caching with Redis** ⚡️ for better performance and less calls to the database 
+* ⏳ **Add Clustering** 🕸️ to improve scalability
+---
 
-# DISCLAIMER: this API design is taken from jonas Schmedtmann NodeJs tutorial, I tried to re-implement it using typescript!
-
-
-
-
+#### DISCLAIMER: this API design is taken from jonas Schmedtmann NodeJs tutorial, I tried to re-implement it using typescript!
 For more details, refer to the source code files linked above.
