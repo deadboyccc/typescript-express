@@ -1,0 +1,9 @@
+extends base
+
+block content
+  each tour in tours 
+    ul=tour.name
+      li= `tour rating :${tour.ratingAverage}`
+      //- li= `tour description :${tour.description}`
+      li= `tour groupSize :${tour.maxGroupSize}`
+      li= `tour start location :${tour.startLocation.address}`

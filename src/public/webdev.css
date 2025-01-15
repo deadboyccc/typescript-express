@@ -1,0 +1,108 @@
+/* settings Jetbrains Mono font */
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  color: olivedrab;
+}
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex; /* Enable flexbox for overall layout */
+  flex-direction: column; /* Stack header, main, and footer vertically */
+  min-height: 100vh; /* Ensure the body takes up full viewport height */
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 80%;
+  max-width: 960px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#dynamic-section,
+#form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Dynamic Content */
+#dynamic-section h2 {
+  margin-bottom: 1rem;
+}
+
+/* User Input */
+#form-section label {
+  width: 100%;
+  text-align: center;
+}
+
+#form-section input,
+#form-section .bot {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.bot {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Table Footer */
+#table-footer {
+  background-color: #ddd;
+  padding: 1rem;
+  width: 100%;
+}
+
+#table-footer ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#table-footer li {
+  margin: 0 1rem;
+}

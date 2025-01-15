@@ -1,0 +1,15 @@
+doctype html
+head
+  title Login Page
+header
+main
+  section#form-section
+    h2 update info
+    form#update-form
+      label(for='email') email:
+      input#email(type='text' name='email' required='')
+      label(for='user') user:
+      input#user(type='user' name='user' required='')
+      button.bot#update(type='submit') update
+//- //add script from login.js
+script(type='module' src='/bundle/login.js')

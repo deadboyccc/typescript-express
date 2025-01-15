@@ -1,0 +1,8 @@
+extends base
+
+block content
+  h1= tour.name 
+  //- h2= tour.description 
+  h1= tour.duration
+  h1= tour.difficulty
+  h1=tour.reviews.map(rev=>rev.rating.toFixed(2)).join('____')

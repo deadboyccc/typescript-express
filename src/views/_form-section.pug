@@ -1,0 +1,17 @@
+doctype html
+head
+  title Login Page
+header
+main
+  section#form-section
+    h2 User Login
+    form#login-form
+      label(for='email') email:
+      input#email(type='text' name='email' required='')
+      label(for='password') Password:
+      input#password(type='password' name='password' required='')
+      button.bot(type='submit') Login
+    button#logout(type='button') Logout
+//add script from login.js
+script(type='module' src='/bundle/login.js')
+
