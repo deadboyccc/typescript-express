@@ -64,10 +64,10 @@ class Email {
   async passwordReset() {
     try {
       await this.send("reset", "Password Reset")
-      console.log("SMTP Host:", process.env.DEVELOPMENT_SMPT_HOST)
-      console.log("SMTP Port:", process.env.DEVELOPMENT_SMPT_PORT || 2525)
-      console.log("SMTP User:", process.env.DEVELOPMENT_SMPT_USER)
-      console.log("SMTP Password:", process.env.DEVELOPMENT_SMPT_PASSWORD)
+      // console.log("SMTP Host:", process.env.DEVELOPMENT_SMPT_HOST)
+      // console.log("SMTP Port:", process.env.DEVELOPMENT_SMPT_PORT || 2525)
+      // console.log("SMTP User:", process.env.DEVELOPMENT_SMPT_USER)
+      // console.log("SMTP Password:", process.env.DEVELOPMENT_SMPT_PASSWORD)
     } catch (err) {
       // eslint-disable-next-line no-console
       console.log("ERROR SENDING EMAIL", err)
