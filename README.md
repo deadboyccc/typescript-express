@@ -3,14 +3,15 @@
 ## Overview
 This project is a TypeScript-based application that utilizes environment variables for configuration. It provides various API routes and endpoints to perform specific tasks. The project structure includes TypeScript files located in the `src` directory and a configuration file named `config.env`.
 
-## The 'generate.bat' batch file streamlines the process of generating and inserting test data into your local database, simplifying API testing efforts.
 ## Running the Application
 
-1. Start the application with PM2 in clustered mode:
+1. The 'generate.bat' batch file streamlines the process of generating and inserting test data into your local database, simplifying API testing efforts.
+
+2. Start the application with PM2 in clustered mode:
 
    ```bash
    pm2 start src/server.ts --name "express-cluster-ts" --watch --interpreter ts-node
-2. After initiating  the clustered mode, run the application [you can run it directly without initiating clustered mode] :
+3. After initiating  the clustered mode, run the application [you can run it directly without initiating clustered mode] :
 
    ```bash
    npm run start
