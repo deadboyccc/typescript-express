@@ -134,7 +134,7 @@ The project expects the following environment variables to be defined in the `sr
 * ✅ **Add Clustering** 🕸️ to improve scalability
 ---
 
-# Implemented Dockerfile, PM2, and Clustering for improved scalability and process management
+## Implemented Dockerfile, PM2, and Clustering for improved scalability and process management
 
 - **Added Dockerfile** to containerize the application for consistent and portable deployment.
 - **Integrated PM2** for efficient process management, ensuring automatic restarts, logging, and clustering support.
