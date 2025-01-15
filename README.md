@@ -10,10 +10,11 @@ This project is a TypeScript-based application that utilizes environment variabl
 
    ```bash
    pm2 start src/server.ts --name "express-cluster-ts" --watch --interpreter ts-node
-2.After initiating  the clustered mode, run the application [you can run it directly without initiating clustered mode] :
+2. After initiating  the clustered mode, run the application [you can run it directly without initiating clustered mode] :
 
    ```bash
    npm run start
+---
 
 ## Environment Variables
 The project expects the following environment variables to be defined in the `src/config.env` file:
