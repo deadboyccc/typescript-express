@@ -115,11 +115,13 @@ The project expects the following environment variables to be defined in the `sr
 - **Nodemon Configuration**: `nodemon.json`
 - **Jest Configuration**: `jest.config.js`
 
+---
+## To-Do List 🚢
 
+* ✅ **Create Docker Image** 🐳 
+* ⏳ **Add Caching with Redis** ⚡️ for better performance and less calls to the database 
+* ⏳ **Add Clustering** 🕸️ to improve scalability
+---
 
-# DISCLAIMER: this API design is taken from jonas Schmedtmann NodeJs tutorial, I tried to re-implement it using typescript!
-
-
-
-
+#### DISCLAIMER: this API design is taken from jonas Schmedtmann NodeJs tutorial, I tried to re-implement it using typescript!
 For more details, refer to the source code files linked above.
