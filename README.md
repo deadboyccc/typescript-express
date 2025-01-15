@@ -118,7 +118,7 @@ The project expects the following environment variables to be defined in the `sr
 ---
 ## To-Do List 🚢
 
-* ✅ **Create Docker Image** 🐳 
+* ⏳ **Create Docker Image** 🐳 
 * ⏳ **Add Caching with Redis** ⚡️ for better performance and less calls to the database 
 * ⏳ **Add Clustering** 🕸️ to improve scalability
 ---
