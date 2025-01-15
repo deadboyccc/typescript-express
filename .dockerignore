@@ -1,0 +1,16 @@
+
+node_modules/
+
+
+dist/
+
+coverage/
+
+*.log
+
+npm-debug.log*
+
+.cache/
+.parcel-cache/
+.vscode/
+coverage/
