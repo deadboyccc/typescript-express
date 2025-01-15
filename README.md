@@ -4,6 +4,16 @@
 This project is a TypeScript-based application that utilizes environment variables for configuration. It provides various API routes and endpoints to perform specific tasks. The project structure includes TypeScript files located in the `src` directory and a configuration file named `config.env`.
 
 ## The 'generate.bat' batch file streamlines the process of generating and inserting test data into your local database, simplifying API testing efforts.
+## Running the Application
+
+1. Start the application with PM2 in clustered mode:
+
+   ```bash
+   pm2 start src/server.ts --name "express-cluster-ts" --watch --interpreter ts-node
+2.After initiating  the clustered mode, run the application [you can run it directly without initiating clustered mode] :
+
+   ```bash
+   npm run start
 
 ## Environment Variables
 The project expects the following environment variables to be defined in the `src/config.env` file:
@@ -118,10 +128,19 @@ The project expects the following environment variables to be defined in the `sr
 ---
 ## To-Do List 🚢
 
-* ⏳ **Create Docker Image** 🐳 
+* ✅ **Create Docker Image** 🐳 
 * ⏳ **Add Caching with Redis** ⚡️ for better performance and less calls to the database 
-* ⏳ **Add Clustering** 🕸️ to improve scalability
+* ✅ **Add Clustering** 🕸️ to improve scalability
 ---
+
+# Implemented Dockerfile, PM2, and Clustering for improved scalability and process management
+
+- **Added Dockerfile** to containerize the application for consistent and portable deployment.
+- **Integrated PM2** for efficient process management, ensuring automatic restarts, logging, and clustering support.
+- **Implemented clustering** to utilize all CPU cores, improving the application's scalability and performance under load.
+
+---
+
 
 #### DISCLAIMER: this API design is taken from jonas Schmedtmann NodeJs tutorial, I tried to re-implement it using typescript!
 For more details, refer to the source code files linked above.
