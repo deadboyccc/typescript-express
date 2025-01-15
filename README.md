@@ -117,4 +117,7 @@ This project is a TypeScript-based application that provides various API routes 
 - **Nodemon Configuration**: `nodemon.json`
 - **Jest Configuration**: `jest.config.js`
 
+
+
+# DISCLAIMER: this API design it take from jonas Schmedtmann NodeJs tutorial, I tried to re-implement it using typescript!
 For more details, refer to the source code files linked above.
