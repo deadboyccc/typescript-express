@@ -12,7 +12,7 @@ The project expects the following environment variables to be defined in the `sr
 - `PORT`: The port number on which the server will run.
 - `DB_LOCAL`: The hostname of the database server. (local)
 - `JWT_SECRET`: The secret key used for JSON Web Token (JWT) authentication.
-- `JWT_EXPIRES_IN`: JWT epides in 'xd' format (90d=90days)
+- `JWT_EXPIRES_IN`: JWT expires in 'xd' format (90d=90days)
 - `FROM_EMAIL`: server sender email
 
 - `PRODUCTION_SMPT_HOST`: host name of the production smpt
