@@ -3,7 +3,7 @@
 ## Overview
 This project is a TypeScript-based application that utilizes environment variables for configuration. It provides various API routes and endpoints to perform specific tasks. The project structure includes TypeScript files located in the `src` directory and a configuration file named `config.env`.
 
-## use the generate bat file to generate fake data to local database to test the API
+## The 'generate.bat' batch file streamlines the process of generating and inserting test data into your local database, simplifying API testing efforts.
 
 ## Environment Variables
 The project expects the following environment variables to be defined in the `src/config.env` file:
