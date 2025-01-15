@@ -127,6 +127,10 @@ The project expects the following environment variables to be defined in the `sr
 - **Nodemon Configuration**: `nodemon.json`
 - **Jest Configuration**: `jest.config.js`
 
+###You can find more details about the API in the Postman documentation.
+
+[Postman documentation](https://documenter.getpostman.com/view/40104849/2sAYQXnXsV)
+
 ---
 ## To-Do List 🚢
 
