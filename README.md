@@ -25,8 +25,6 @@ The project expects the following environment variables to be defined in the `sr
 
 ## API Documentation
 
-### Overview
-This project is a TypeScript-based application that provides various API routes and endpoints to perform specific tasks. The project structure includes TypeScript files located in the `src` directory.
 
 ### API Routes and Endpoints
 
