@@ -10,7 +10,7 @@ This project is a TypeScript-based application that utilizes environment variabl
 2. Start the application with PM2 in clustered mode:
 
    ```bash
-   pm2 start src/server.ts --name "express-cluster-ts" --watch --interpreter ts-node
+   pm2 start src/server.ts --name "express-cluster" --watch --interpreter ts-node -i max
 3. After initiating  the clustered mode, run the application [you can run it directly without initiating clustered mode] :
 
    ```bash
