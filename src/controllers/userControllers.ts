@@ -92,7 +92,6 @@ export const getAllUsers: RequestHandler = catchAsync(
 
 export const getUserById: RequestHandler<{ id: string }> = catchAsync(
   async (req, res, next) => {
-    // Your implementation here
 
     const user = await User.findById(req.params.id)
     res.status(200).json({ status: "success", data: { user } })
