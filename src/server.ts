@@ -37,7 +37,7 @@ async function mongosh() {
     process.exit(1) // Exit if DB connection fails
   }
 }
-
+// manual clustering, opt for pm3 for prod
 // Wait for DB connection before starting the server
 async function startServer() {
   await mongosh() // Ensure DB is connected first
